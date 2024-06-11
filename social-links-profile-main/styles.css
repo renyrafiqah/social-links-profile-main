@@ -1,0 +1,65 @@
+@font-face{
+    font-family: static;
+    src: url(../social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf)
+}
+
+body{
+    background-color: hsl(0, 0%,8%);
+    color: hsl(0,0%,100%);
+    font-family: "static";
+    line-height: 1.8;
+    text-align: center;
+}
+
+div.body{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    padding: 50px;
+    margin:auto;
+    width: fit-content;
+}
+
+img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80px;
+}
+
+.name{ 
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+div.address{
+    font-size: 14px;
+    color:hsl(75, 94%, 57%);
+    font-weight:600;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;   
+}
+
+.container > div{
+    background-color: hsl(0, 0%, 20%);
+    margin: 5px;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight:600;
+    font-size: 12px;
+}
+
+.hover:hover {
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 12%)
+}
+

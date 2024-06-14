@@ -9,17 +9,19 @@ body{
     font-family: "static";
     line-height: 1.8;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 div.body{
     background-color: hsl(0, 0%, 12%);
     border-radius: 12px;
     padding: 50px;
-    margin:auto;
+    margin: 100px auto 100px auto;
     width: fit-content;
 }
 
-img{
+img{ 
     border-radius: 50%;
     display: block;
     margin: auto;
